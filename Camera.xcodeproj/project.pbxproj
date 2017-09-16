@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5774C07C1F6D4E2A004718FA /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5774C07B1F6D4E2A004718FA /* Swift+Gif.swift */; };
+		577D30CB1F6D55C2005F8C6B /* harp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 577D30C91F6D5430005F8C6B /* harp.mp3 */; };
+		577D30CC1F6D55C4005F8C6B /* pizza.gif in Resources */ = {isa = PBXBuildFile; fileRef = 577D30CA1F6D54A7005F8C6B /* pizza.gif */; };
+		577D30D01F6D5B3E005F8C6B /* flash.gif in Resources */ = {isa = PBXBuildFile; fileRef = 577D30CF1F6D5B39005F8C6B /* flash.gif */; };
+		577D30D41F6D5C7C005F8C6B /* flash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 577D30D31F6D5C78005F8C6B /* flash.mp3 */; };
+		577D30DC1F6D6589005F8C6B /* world.gif in Resources */ = {isa = PBXBuildFile; fileRef = 577D30DB1F6D6586005F8C6B /* world.gif */; };
+		577D30DE1F6D65DF005F8C6B /* worldjpg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 577D30DD1F6D65D9005F8C6B /* worldjpg.gif */; };
+		577D30E01F6D6DC1005F8C6B /* sparkles.gif in Resources */ = {isa = PBXBuildFile; fileRef = 577D30DF1F6D6DBC005F8C6B /* sparkles.gif */; };
+		577D30E21F6D7072005F8C6B /* vogelrok_sparkle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 577D30E11F6D706A005F8C6B /* vogelrok_sparkle.mp3 */; };
 		B772A49D1DCBB57F00DA7471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772A49C1DCBB57F00DA7471 /* AppDelegate.swift */; };
 		B772A49F1DCBB57F00DA7471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B772A49E1DCBB57F00DA7471 /* ViewController.swift */; };
 		B772A4A21DCBB57F00DA7471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B772A4A01DCBB57F00DA7471 /* Main.storyboard */; };
@@ -18,7 +26,14 @@
 
 /* Begin PBXFileReference section */
 		5774C07B1F6D4E2A004718FA /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
-		5774C07D1F6D4EA7004718FA /* pizza-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "pizza-gif.gif"; sourceTree = "<group>"; };
+		577D30C91F6D5430005F8C6B /* harp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harp.mp3; sourceTree = "<group>"; };
+		577D30CA1F6D54A7005F8C6B /* pizza.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pizza.gif; sourceTree = "<group>"; };
+		577D30CF1F6D5B39005F8C6B /* flash.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = flash.gif; sourceTree = "<group>"; };
+		577D30D31F6D5C78005F8C6B /* flash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = flash.mp3; path = ../../../Downloads/flash.mp3; sourceTree = "<group>"; };
+		577D30DB1F6D6586005F8C6B /* world.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = world.gif; sourceTree = "<group>"; };
+		577D30DD1F6D65D9005F8C6B /* worldjpg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = worldjpg.gif; sourceTree = "<group>"; };
+		577D30DF1F6D6DBC005F8C6B /* sparkles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sparkles.gif; sourceTree = "<group>"; };
+		577D30E11F6D706A005F8C6B /* vogelrok_sparkle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vogelrok_sparkle.mp3; sourceTree = "<group>"; };
 		B772A4991DCBB57F00DA7471 /* Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Camera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B772A49C1DCBB57F00DA7471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B772A49E1DCBB57F00DA7471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +74,14 @@
 		B772A49B1DCBB57F00DA7471 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				5774C07D1F6D4EA7004718FA /* pizza-gif.gif */,
+				577D30CF1F6D5B39005F8C6B /* flash.gif */,
+				577D30E11F6D706A005F8C6B /* vogelrok_sparkle.mp3 */,
+				577D30CA1F6D54A7005F8C6B /* pizza.gif */,
+				577D30D31F6D5C78005F8C6B /* flash.mp3 */,
+				577D30DF1F6D6DBC005F8C6B /* sparkles.gif */,
+				577D30C91F6D5430005F8C6B /* harp.mp3 */,
+				577D30DD1F6D65D9005F8C6B /* worldjpg.gif */,
+				577D30DB1F6D6586005F8C6B /* world.gif */,
 				5774C07B1F6D4E2A004718FA /* Swift+Gif.swift */,
 				B772A49C1DCBB57F00DA7471 /* AppDelegate.swift */,
 				B772A49E1DCBB57F00DA7471 /* ViewController.swift */,
@@ -132,6 +154,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577D30E21F6D7072005F8C6B /* vogelrok_sparkle.mp3 in Resources */,
+				577D30E01F6D6DC1005F8C6B /* sparkles.gif in Resources */,
+				577D30DE1F6D65DF005F8C6B /* worldjpg.gif in Resources */,
+				577D30DC1F6D6589005F8C6B /* world.gif in Resources */,
+				577D30D41F6D5C7C005F8C6B /* flash.mp3 in Resources */,
+				577D30D01F6D5B3E005F8C6B /* flash.gif in Resources */,
+				577D30CC1F6D55C4005F8C6B /* pizza.gif in Resources */,
+				577D30CB1F6D55C2005F8C6B /* harp.mp3 in Resources */,
 				B772A4A71DCBB57F00DA7471 /* LaunchScreen.storyboard in Resources */,
 				B772A4A41DCBB57F00DA7471 /* Assets.xcassets in Resources */,
 				B772A4A21DCBB57F00DA7471 /* Main.storyboard in Resources */,

@@ -9,6 +9,11 @@
         <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -107,9 +112,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza-gif" translatesAutoresizingMaskIntoConstraints="NO" id="czn-GZ-wf2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="czn-GZ-wf2">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="82b-iy-bHV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZpO-hr-2U1">
                                 <rect key="frame" x="16" y="28" width="47" height="40"/>
@@ -119,17 +128,27 @@
                                     <action selector="backToCamera:" destination="WH3-15-yvR" eventType="touchUpInside" id="9qZ-n5-KJt"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRANSMITTING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CnA-3e-EFV">
+                                <rect key="frame" x="125.5" y="28" width="124.5" height="20"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="76z-ro-r9M" firstAttribute="top" secondItem="czn-GZ-wf2" secondAttribute="bottom" id="8eN-3r-yc4"/>
+                            <constraint firstItem="CnA-3e-EFV" firstAttribute="top" secondItem="pTa-l0-np6" secondAttribute="bottom" constant="8" id="QPK-h1-sTK"/>
                             <constraint firstItem="czn-GZ-wf2" firstAttribute="top" secondItem="pTa-l0-np6" secondAttribute="bottom" constant="-20" id="UjQ-To-EmH"/>
                             <constraint firstAttribute="trailing" secondItem="czn-GZ-wf2" secondAttribute="trailing" id="gsj-yL-dc4"/>
                             <constraint firstItem="czn-GZ-wf2" firstAttribute="leading" secondItem="USP-5c-5R4" secondAttribute="leading" id="p3m-O2-AQ8"/>
+                            <constraint firstItem="CnA-3e-EFV" firstAttribute="centerX" secondItem="USP-5c-5R4" secondAttribute="centerX" id="rnS-ED-36o"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="czn-GZ-wf2" id="G6u-yE-bSH"/>
+                        <outlet property="sparklesView" destination="82b-iy-bHV" id="syT-jY-b4l"/>
+                        <outlet property="transmittingLabel" destination="CnA-3e-EFV" id="OWL-py-Fqw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uC-qh-oCt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -139,7 +158,6 @@
     </scenes>
     <resources>
         <image name="Capture_Butt" width="80" height="80"/>
-        <image name="pizza-gif" width="1280" height="1280"/>
         <image name="up" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
